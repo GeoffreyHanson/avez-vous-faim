@@ -29,5 +29,6 @@ module.exports = {
       'react/require-default-props': 0,
       'react/prefer-stateless-function': 0,
       'class-methods-use-this': 0,
+      'react/prop-types': 0,
     },
   };
