@@ -1,6 +1,7 @@
 import React from 'react';
 import './Business.css';
 
+// Formatting for each business in the list.
 class Business extends React.Component {
   render() {
     const { business } = this.props;
