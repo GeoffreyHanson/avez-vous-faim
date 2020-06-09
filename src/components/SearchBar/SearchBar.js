@@ -63,6 +63,7 @@ class SearchBar extends React.Component {
 
   // Renders the sorting options above the search field.
   renderSortByOptions() {
+    console.log(process.env.REACT_APP_API_KEY);
     return Object.keys(this.sortByOptions).map((sortByOption) => {
       const sortByOptionValue = this.sortByOptions[sortByOption];
       return (
